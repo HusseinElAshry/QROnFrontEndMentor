@@ -1,0 +1,56 @@
+body{
+    background-color: #D5E1EF;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Outfit", sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    position: relative;
+    height: 100vh;
+
+}
+.qr-card{
+    width:20%;
+    padding:1%;
+    border-radius: 5%;
+    background: #fff;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    
+}
+.item img{
+    width: 100%;
+    border-radius: 5%;
+}
+.item-caption h3{
+    font-size: 1.55rem;
+}
+.item-caption p{
+    font-size: 1.25rem;
+}
+.text-light{
+    color: #B6BCC2;
+}
+.text-bold{
+    font-weight: 400;
+}
+.text-bolder{
+    font-weight: 700;
+}
+@media screen and (max-width:768px) {
+    .qr-card{
+        width:80%;
+        padding:2%;
+        border-radius: 5%;
+        background: #fff;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        
+    }
+    
+}
